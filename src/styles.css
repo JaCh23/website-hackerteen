@@ -1,0 +1,189 @@
+body {
+  font: 14px "Roboto", Futura, sans-serif;
+  margin: 20px;
+  background: rgb(255, 255, 255);
+}
+
+p,
+ul,
+li {
+  font: 18px "Roboto", Futura, sans-serif;
+}
+
+.box {
+  flex-basis: 50%;
+  flex-grow: 0;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  background-color: rgb(93, 197, 183);
+}
+
+.navbar {
+  background-color: #333;
+  min-height: 48px;
+  z-index: 3;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+.dropdown {
+  overflow: hidden;
+  float: right;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(11, 21, 66);
+  text-decoration: underline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#imagewrapper {
+  padding: 20px;
+}
+
+#main-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 100%;
+}
+
+.small-image {
+  padding: 1rem;
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+.center {
+  text-align: center;
+  text-decoration: none;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+button {
+  color: black;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 20 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+}
+
+.box1 {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.white {
+  color: whitesmoke;
+}
+
+.black {
+  color: black;
+}
+
+.column-left {
+  float: left;
+  width: 80%;
+}
+.column-right {
+  float: right;
+  width: 20%;
+}
+
+.flip-column-left {
+  float: left;
+  width: 20%;
+}
+.flip-column-right {
+  float: right;
+  width: 80%;
+}
+
+.overlay {
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  font-weight: normal;
+  opacity: 0.9;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  height: 1.5rem;
+  margin-top: -200px;
+
+  clear: both;
+}
